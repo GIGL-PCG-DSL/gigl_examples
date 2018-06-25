@@ -8,8 +8,8 @@
 
 using namespace std;
 
-#include "dungeon_hierarchical.generated.h"
-//#include "dungeon_hierarchical.manual.h"
+#include "dungeon.generated.h"
+//#include "dungeon.manual.h"
 
 BspDungeon* active_dungeon = nullptr;
 

@@ -64,8 +64,8 @@
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <None Include="dungeon_viewculled.xc">
+    <CustomBuild Include="dungeon.xc">
       <Filter>GIGL Source</Filter>
-    </None>
+    </CustomBuild>
   </ItemGroup>
 </Project>

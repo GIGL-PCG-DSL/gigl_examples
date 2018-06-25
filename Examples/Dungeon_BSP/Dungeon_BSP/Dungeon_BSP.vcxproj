@@ -170,15 +170,15 @@
     <ClCompile Include="main.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <CustomBuild Include="dungeon_viewculled.xc">
+    <CustomBuild Include="dungeon.xc">
       <FileType>Document</FileType>
       <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">call prebuild.bat</Command>
-      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Translating the GIGL Source File dungeon_viewculled.xc</Message>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">dungeon_viewculled.generated.h</Outputs>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Translating the GIGL Source File dungeon.xc</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">dungeon.generated.h</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</LinkObjects>
       <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">call prebuild.bat</Command>
-      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Translating the GIGL Source File dungeon_viewculled.xc</Message>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">dungeon_viewculled.generated.h</Outputs>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Translating the GIGL Source File dungeon.xc</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">dungeon.generated.h</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkObjects>
     </CustomBuild>
   </ItemGroup>
