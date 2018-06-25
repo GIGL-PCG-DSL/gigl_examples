@@ -9,7 +9,7 @@ This is an anonymised repo for supporting blind-reviewed submissions about GIGL.
 2. The "include" folder contains GIGL library code, written in C++.
 
 
-3. The "able.jar" is the GIGL-C++ translator, which is serves one of the steps in compiling GIGL code.
+3. The "able.jar" is the GIGL-C++ translator, which serves in one of the steps in compiling GIGL code.
 
 
 4. The examples include
