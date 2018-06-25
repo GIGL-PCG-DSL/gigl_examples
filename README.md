@@ -6,7 +6,7 @@ This is an anonymised repo for supporting blind-reviewed submissions about GIGL.
 1. The "Example" folder contains examples of projects that uses GIGL (or other versions for comparison).
 
 
-2. The "include" folder contains GIGL library code, written in C++.
+2. The "include" folder contains the GIGL library code, written in C++.
 
 
 3. The "able.jar" is the GIGL-C++ translator, which serves in one of the steps in compiling GIGL code.
@@ -27,6 +27,6 @@ This is an anonymised repo for supporting blind-reviewed submissions about GIGL.
   
   (2) The ".generated.h" file is intermediate C++ code in compiling GIGL (i.e. those translated by the GIGL-C++ translator).
   
-  (3) The ".manual.h" file is a handwritten counterpart for the GIGL source, created only for the purpose of comparing (i.e. they are not required for compiling the example). It intends to reproduce the semantics of the GIGL code but is more uses approaches natural to human thus being less generalizable than the GIGL version.
+  (3) The ".manual.h" file is a handwritten counterpart for the GIGL source, created only for the purpose of comparing (i.e. they are not required for compiling the example). It intends to reproduce the semantics of the GIGL code, but uses approaches natural to human thus being less generalizable than the GIGL version.
   
   (4) Other ".cpp" and ".h" files are project specific C++ source files which can directly interface with the GIGL file (can be compiled together in Visual Studio).
