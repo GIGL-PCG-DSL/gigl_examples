@@ -28,9 +28,11 @@ namespace rand_utility
 
 	void RandOrder(int* list, unsigned int num); // a list with randomly ordered 0 .. num - 1
 
-	double GetRandFloat();
+	double GetRandFloat(); // 0.0 ~ 1.0
 
-	double GetRandFloat(double min_val, double max_val);
+	double GetRandFloat(double max_val); // 0.0 ~ max_val
+
+	double GetRandFloat(double min_val, double max_val); // min_val ~ max_val
 
 	bool RandomRoll(double succ_prob);
 

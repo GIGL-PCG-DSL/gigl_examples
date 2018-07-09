@@ -59,9 +59,14 @@ double rand_utility::GetRandFloat()
 	return uniform_real_dist(rng);
 }
 
+double rand_utility::GetRandFloat(double max_val)
+{
+	return GetRandFloat() * max_val;
+}
+
 double rand_utility::GetRandFloat(double min_val, double max_val)
 {
-	return min_val + (max_val - min_val) * GetRandFloat();
+	return min_val + GetRandFloat(max_val - min_val);
 }
 
 bool rand_utility::RandomRoll(double succ_prob)
